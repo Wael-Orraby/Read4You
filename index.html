@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive landing page headphones</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" style="border-radius: 50%" alt="" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#how" class="nav__link">How</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div>
+            <img src="assets/img/OIG4.jpeg" alt="" class="home__img" />
+          </div>
+
+          <div class="home__data">
+            <div class="home__header">
+              <h1 class="home__title">Every Word, Your Way​</h1>
+              <h2 class="home__subtitle">Read<span>4</span>You</h2>
+            </div>
+
+            <div class="home__footer">
+              <h3 class="home__title-description">Welkom bij Read4You</h3>
+              <p class="home__description">
+                Met Read4You kun je naadloos schakelen tussen lezen en
+                luisteren. Neem eenvoudig foto's van de pagina's waar je gestopt
+                bent en laat een AI-stem naar jouw keuze het verhaal voorlezen
+                terwijl je verder doet met iets anders. Geniet van een
+                eenvoudige luisterervaring, altijd en overal.
+              </p>
+              <div class="button button--flex downloadBtn" style="width: 60%">
+                <img
+                  src="./assets/img/google-play-badge-en.png"
+                  style="
+                    width: 9rem;
+                    border: 1px white solid;
+                    border-radius: 10px;
+                  "
+                  alt=""
+                />
+                <img
+                  src="./assets/img/apple-store-badge-en.svg"
+                  style="
+                    width: 9rem;
+                    border: 1px white solid;
+                    border-radius: 10px;
+                  "
+                  alt=""
+                />
+              </div>
+              <div class="downloads">
+                <h3>Totaal downloads:</h3>
+                <p class="total">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== How ===============-->
+    <section class="how section container grid" id="how">
+      <h2 class="section__title section__title-gradient">How</h2>
+
+      <div class="how__container container grid">
+        <div class="how__content grid">
+          <div class="how__data">
+            <i class="ri-book-line"></i>
+            <h3 class="how__title">Lees</h3>
+          </div>
+
+          <div class="how__data">
+            <i class="ri-camera-line"></i>
+            <h3 class="how__title">Neem</h3>
+          </div>
+
+          <div class="how__data">
+            <i class="ri-headphone-fill"></i>
+            <h3 class="how__title">Luister</h3>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/img/OIG3.png" alt="" class="how__img" />
+        </div>
+      </div>
+      <div>
+        <h1>Lees</h1>
+        <p>Rustig aan het lezen, maar je moet iets anders doen?</p>
+      </div>
+      <div>
+        <h1>Neem foto​</h1>
+        <p>
+          Met Read4You kan je snel enkele foto’s nemen van de pagina’s waar je
+          was gestopt.​
+        </p>
+      </div>
+      <div>
+        <h1>Luister</h1>
+        <p>
+          En kan je verder luisteren naar uw boek met een AI stem naar uw keuze​
+        </p>
+      </div>
+    </section>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section" id="subscribe">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <form action="" class="footer__form">
+            <input type="email" placeholder="Email" class="footer__input" />
+            <button class="button button--flex sbs">
+              <i class="ri-send-plane-line button__icon"></i> Subscribe
+            </button>
+          </form>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
