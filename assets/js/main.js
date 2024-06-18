@@ -98,7 +98,7 @@ sr.reveal(`.case__data`);
 /*=============== Downloads buttons ===============*/
 let btns = document.querySelector(".downloadBtn");
 let total = document.querySelector(".total");
-let count = 25;
+let count = 0;
 btns.addEventListener("click", () => {
   count++;
   total.innerHTML = count;
